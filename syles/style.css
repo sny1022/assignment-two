@@ -57,6 +57,7 @@ span {
 
 
 .container {
+    background-image: url("images/ten.png");
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -242,4 +243,205 @@ p {
         width: 100%;
         margin-bottom: 20px;
     }
+}
+
+
+
+
+
+.container-two {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.game {
+    width: calc(20% - 20px);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.game-checkbox {
+    display: none;
+}
+
+.game-label {
+    display: flex;
+    align-items: center;
+}
+
+.game-icon-wrapper {
+    margin-right: 10px;
+}
+
+.game-icon {
+    width: 50px;
+    height: 50px;
+    transition: filter 0.3s;
+}
+
+.game-name {
+    color: #555555;
+    transition: color 0.3s;
+}
+
+.game-checkbox:checked+.game-label .game-icon {
+    filter: invert(50%);
+}
+
+.game-checkbox:checked+.game-label .game-name {
+    color: blue;
+}
+
+@media only screen and (max-width: 768px) {
+    .game {
+        width: calc(50% - 20px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #0B0223;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-header {
+    margin-bottom: 20px;
+}
+
+.footer-header img {
+    display: block;
+    margin: 0 auto;
+}
+
+.footer-titles {
+    margin-bottom: 10px;
+}
+
+.footer-titles h3 {
+    margin: 0 5px;
+    display: inline;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.footer-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-paragraph {
+    margin-bottom: 20px;
+}
+
+.footer-paragraph p {
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-titles {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-titles h3 {
+        margin: 5px;
+    }
+
+    .footer-icons {
+        flex-wrap: wrap;
+    }
+
+    .footer-icons img {
+        margin: 5px;
+    }
+}
+
+
+
+
+
+
+.flex-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.flex-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.left-side,
+.right-side {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.right-side img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .flex-content {
+        flex-direction: row;
+    }
+
+    .left-side,
+    .right-side {
+        margin-bottom: 0;
+    }
+
+    .left-side {
+        flex: 1;
+        padding-right: 20px;
+        text-align: left;
+    }
+
+    .right-side {
+        flex: 1;
+        padding-left: 20px;
+        text-align: right;
+    }
+}
+
+.heading-color {
+    background: linear-gradient(pink);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
