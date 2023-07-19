@@ -439,7 +439,7 @@ footer {
 }
 
 .heading-color {
-    background: linear-gradient(pink);
+    background: linear-gradient(rgb(228, 130, 146));
 
     background-clip: text;
     -webkit-background-clip: text;
