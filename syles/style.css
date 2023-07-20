@@ -63,24 +63,10 @@ ul li a {
 
     font-size: 16px;
 
-
-
-    font-size: .8em;
     padding-left: 5px;
 
     color: #534C64;
     opacity: 2;
-}
-
-
-.follow-us {
-    display: inline-block;
-    background-color: rgb(253, 241, 241);
-    padding: 5px 10px;
-    color: #fff;
-
-    border-radius: 5px;
-    text-decoration: none;
 }
 
 /* Media Query for Mobile Devices */
@@ -117,42 +103,30 @@ ul li a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container {
     background-image: url("images/ten.png");
     display: flex;
+
     justify-content: space-between;
     align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+
+
+
 }
 
 .left-side {
     flex: 1;
     text-align: center;
-    margin-right: 20px;
+
+
 }
 
 .right-side {
     flex: 1;
     text-align: center;
+
 }
 
 .buttons {
@@ -182,37 +156,6 @@ button {
 button+button {
     margin-left: 10px;
 }
-
-
-
-
-
-
-h1 {
-    background: linear-gradient(to top, blue, pink);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 2.8em;
-    font-weight: 900;
-
-    font-family: 'Work Sans', sans-serif;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -422,6 +365,27 @@ footer {
 
     margin-right: 10px;
 }
+
+
+
+h1 {
+    background: linear-gradient(to top, blue, pink);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.8em;
+    font-weight: 900;
+
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+
+
+
+
+
+
 
 .footer-titles {
     margin-bottom: 10px;
